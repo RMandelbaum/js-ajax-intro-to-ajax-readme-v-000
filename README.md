@@ -62,7 +62,7 @@ Then let's create our `getRepositories` function and initiate our XHR request.
 ```js
 function getRepositories() {
   const req = new XMLHttpRequest()
-  req.open("GET", 'https://api.github.com/users/octocat/repos')
+  req.open("GET", 'https://api.github.com/users/rmandelbaum/repos')
   req.send()
 }
 ```
